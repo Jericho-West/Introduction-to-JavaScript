@@ -204,8 +204,8 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(kilo){
+  return kilo * 5/3
 }
 
 
@@ -218,8 +218,8 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(centi){
+  return centi * 5/2
 }
 
 
@@ -234,10 +234,11 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(startingNumber){
+ for (i=0; i<startingNumber; i++) {
+  console.log(`${startingNumber} bottles of soda on the wall, ${startingNumber} bottles of soda, take one down pass it around ${number - 1} bottles of soda on the wall`)
+ }
 }
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -254,9 +255,19 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
-}
+function grade(grape){
+  if (grape >= 90) {
+    return 'you got an A' 
+  } else if (grape >= 80) {
+    return 'you got an B' 
+  } else if (grape >= 70) {
+    return 'you got an C' 
+  } else if (grape >= 60) {
+    return 'you got an D' 
+  } else {
+    return 'you got an F' 
+  } 
+  } 
 
 
 
