@@ -89,8 +89,6 @@ function dogYears(humanYears){
   return humanYears * 7
 }
 
-dogYears(3)
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -134,7 +132,6 @@ function hungryDog(dogAge, dogWeight){
       return dogWeight * 1/20
     }
   }
-hungryDog(1, 15)
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
