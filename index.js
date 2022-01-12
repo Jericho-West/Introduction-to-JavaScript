@@ -40,7 +40,7 @@ Do the following:
 
 let car = "red"
 let paint = "blue"
-if (typeof paint === string) {
+if (typeof paint === "string") {
   let car = paint
 }
 
@@ -159,6 +159,7 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+let computer = Math.floor(Math.random() * 3)
 
 function game(user, computer){
   /*add your code here*/
